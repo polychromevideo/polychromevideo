@@ -22,7 +22,9 @@
   .top-left-corner-logo {
     width: 100%;
     height: auto;
-    position: sticky;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     background: rgb(10, 10, 10);
     left: 0px;
     top: 0px;
@@ -161,13 +163,11 @@
     }
 
     .fas {
-      margin-top: 10px;
-      margin-right: 10px;
       font-size: 30px;
     }
 
     .menu {
-      padding: 15px;
+      padding: 25px;
     }
 
     .top-left-corner-logo {
@@ -187,4 +187,3 @@
       width: 30px;
     }
   }
- 

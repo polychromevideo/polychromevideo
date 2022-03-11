@@ -19,14 +19,13 @@
     color: white;
   }
 
-  .hero {
+  .top-left-corner-logo {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    align-items: left;
+    display: absolute;
+    left: 0px;
+    top: 0px;
     padding: 30px;
-    margin: 0;
-    flex-direction: column;
   }
 
  h1 {
@@ -154,8 +153,8 @@
       padding: 15px;
     }
 
-    .hero {
-      padding: 10px;
+    .top-left-corner-logo {
+      padding: 20px;
     }
 
     .menu_overlay .fas {

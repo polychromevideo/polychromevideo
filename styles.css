@@ -177,7 +177,7 @@
     height: auto;
   }
 
-  a {
+  .bottom {
     text-decoration: none;
     color: lightseagreen;
     font-size: 20px;
@@ -193,8 +193,12 @@
   
 @media screen and (max-width: 650px) {
 
+    .spacer {
+      height: 100px;
+    }
+
     h1 {
-      font-size: 60px;
+      font-size: 50px;
     }
 
     h2 {
